@@ -11,7 +11,9 @@ docker-compose up --build
 ```
 
 ## ci-agent
-A parte do `agent`, que esta comentada no `compose`, pode ser utilizada para fazer o deploy em outra maquina.
+A parte do `agent`, que esta comentada no `compose` (docker-compose), pode ser utilizada para fazer o deploy em outra maquina.
+
+O Dockerfile esta escrito para fazer o deploy de uma estrutura via `compose` no agent.
 
 Caso queira que o deploy seja feito na maquina `host` descomentar as linhas **11**/**12** e "expor" a API do docker no host.
 
